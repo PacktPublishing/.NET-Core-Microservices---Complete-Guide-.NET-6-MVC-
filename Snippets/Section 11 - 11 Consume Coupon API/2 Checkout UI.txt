@@ -1,0 +1,107 @@
+
+
+<form method="post">
+      <div>
+        <span style="font-size:25px;" class="text-warning">Enter details and place order :</span>
+        <br />
+    </div>
+    <div class="border mt-2">
+        <div class="container row">
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-12">
+                        <label class="col-form-label">First Name :</label>
+                        <input  class="form-control" />
+                    </div>
+                    <div class="col-12">
+                        <label class="col-form-label">Last Name :</label>
+                        <input class="form-control" />
+                    </div>
+                    <div class="col-12">
+                        <label class="col-form-label">Email :</label>
+                        <input class="form-control" />
+                    </div>
+                    <div class="col-12">
+                        <label class="col-form-label">Phone :</label>
+                        <input class="form-control" />
+                    </div>
+                    <div class="col-12">
+                        <label class="col-form-label">PickUp Time</label>
+                        <input class="form-control form_datetime" type="text">
+                    </div>
+                    <div class="col-12">
+                        <label class="col-form-label">Card Number :</label>
+                        <input class="form-control" />
+                    </div>
+
+                    <div class="col-12">
+                        <label class="col-form-label">CVV :</label>
+                        <input  class="form-control" />
+                    </div>
+
+                    <div class="col-12 pb-4">
+                        <label class="col-form-label">Expiry :</label>
+                        <input  placeholder="MMYY" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <div class=" d-none d-lg-block">
+                            <div class="row text-danger" >
+                                <div class="col-6">
+                                    Product Details
+                                </div>
+
+                                <div class="col-3">
+                                    Price
+                                </div>
+                                <div class="col-3">
+                                    Count
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr />
+                       
+                      
+
+                            <div class="row h-100">
+                                <div class="col-6">
+                                    <span style="font-size:20px">Product.Name</span>
+                                </div>
+
+                                <div class="col-3" style="font-size:11px;">
+                                    <span style="font-size:17px;"> $Product.Price</span>
+
+                                </div>
+                                <div class="col-3" style="font-size:11px;">
+                                    <span style="font-size:17px;"> Count</span>
+                                </div>
+                            </div>
+                            <hr />
+                        
+                        <div class="row">
+                            <div class="col-12 text-right pr-4 text-danger">
+                                Order Total :  $$ <br />
+                           
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+
+                            <div class="col-12 ">
+                                <button type="submit" class="btn btn-success form-control ">
+                                    <span>Place Order</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,24 @@
+<form>
+    <div class="container row">
+        <div class="col-4 ">
+            <div class="p-0 my-3 border">
+                <div class="card">
+                    <img src="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-success">Name</h3>
+                        <span class="badge badge-light mb-2 ">CategoryName</span>
+                        <p class="card-text">Description</p>
+                        <div class="row">
+                            <div class="col pt-1">
+                                <span style="font-size:23px;">Price</span>
+                            </div>
+                            <div class="col">
+                                <a class="btn btn-success form-control">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

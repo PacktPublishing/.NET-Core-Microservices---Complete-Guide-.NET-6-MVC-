@@ -1,0 +1,16 @@
+{
+      "DownstreamPathTemplate": "",
+      "DownstreamScheme": "",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "",
+          "Port": 
+        }
+      ],
+      "UpstreamPathTemplate": "",
+      "UpstreamHttpMethod": [ "" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "",
+        "AllowedScopes": [ "" ]
+      }
+    }

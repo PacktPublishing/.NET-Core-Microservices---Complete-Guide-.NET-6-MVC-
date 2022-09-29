@@ -1,0 +1,7 @@
+Hello,
+
+Just a quick reminder to disable <Nullable> in the csproj file of the newly created project. :)
+
+Thanks,
+
+Bhrugen
